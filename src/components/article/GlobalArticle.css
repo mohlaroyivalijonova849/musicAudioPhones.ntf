@@ -1,0 +1,41 @@
+.global__container {
+  background-color: var(--main-bg-clr);
+}
+
+.global__main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 122px;
+  gap: 100px;
+  margin-bottom: 100px;
+}
+
+.global__title {
+  color: #000;
+  font-family: Manrope;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px; /* 110% */
+  letter-spacing: 1.429px;
+  text-transform: uppercase;
+}
+.global__desc {
+  color: #d87d4a;
+  font-family: Manrope;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 1.429px;
+  text-transform: uppercase;
+}
+.global__paragrf {
+  color: #000;
+  font-family: Manrope;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+}

@@ -1,0 +1,37 @@
+.footer__container {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+
+.footer__desc {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+  opacity: 0.5;
+  width: 540px;
+  margin-bottom: 56px;
+}
+.footer__img {
+  display: flex;
+  gap: 446px;
+  margin-bottom: 48px;
+}
+.footer__link {
+  gap: 16px;
+}
+.footer__navlik {
+  margin-right: 16px;
+}
+.reserved {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 166.667% */
+  opacity: 0.5;
+}

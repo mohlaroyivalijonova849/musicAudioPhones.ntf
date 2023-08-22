@@ -1,0 +1,43 @@
+.shopCard__main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.shopCard {
+  border-radius: 8px;
+  background: #f1f1f1;
+  width: 350px;
+  height: 204px;
+  flex-shrink: 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.shopCard__title {
+  position: absolute;
+  top: 55%;
+}
+.shopCard__span {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 120px;
+}
+.shopCard__span span {
+  color: #000;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
+.shopCard__img {
+  position: absolute;
+  top: -80px;
+  filter: drop-shadow(2px 29px 18px rgb(61, 60, 60));
+}

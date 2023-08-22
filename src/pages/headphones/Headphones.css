@@ -1,0 +1,9 @@
+.headPhons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white-color);
+  padding-top: 98px;
+  padding-bottom: 97px;
+  background-color: var(--header-bg-color);
+}

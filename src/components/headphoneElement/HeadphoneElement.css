@@ -1,0 +1,55 @@
+.img__container {
+  background-color: var(--secondry-white-clr);
+  width: 540px;
+  height: 560px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.headPhons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white-color);
+  padding-top: 98px;
+  padding-bottom: 97px;
+  background-color: var(--header-bg-color);
+}
+.herheadphones__left {
+  max-width: 445px;
+}
+.headphones__main {
+  display: flex;
+  align-items: center;
+  gap: 125px;
+}
+.headphones__title{
+  color: var(--main-color);
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 10px;
+}
+.headphones__desck{
+  color: var(--main-black-clr);
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 44px; /* 110% */
+letter-spacing: 1.429px;
+text-transform: uppercase;
+padding-top: 16px;
+padding-bottom: 32px;
+}
+.headphones__paragrf{
+  color:var(--main-black-clr);
+font-family: Manrope;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 25px;
+opacity: 0.5;
+}
