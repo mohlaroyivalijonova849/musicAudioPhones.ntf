@@ -1,7 +1,7 @@
 import HeadphoneElement from "../../components/headphoneElement/HeadphoneElement";
 import ShopCard from "../../components/shopCard/ShopCard";
 import EarPhoneElem1 from "../../assets/earphones_elem1.png";
-import "./earphones.css";
+import "./Earphones.css";
 
 function Earphones() {
   return (
